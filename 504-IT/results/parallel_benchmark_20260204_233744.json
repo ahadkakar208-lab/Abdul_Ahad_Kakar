@@ -1,0 +1,80 @@
+{
+    "sequential_500": {
+        "method": "sequential",
+        "task_size": 500,
+        "time_seconds": 0.0012230873107910156,
+        "tasks_per_second": 408801.559454191,
+        "total_primes": 95
+    },
+    "sequential_2000": {
+        "method": "sequential",
+        "task_size": 2000,
+        "time_seconds": 0.002920389175415039,
+        "tasks_per_second": 684840.2318556617,
+        "total_primes": 303
+    },
+    "threading_500_2": {
+        "method": "threading",
+        "task_size": 500,
+        "thread_count": 2,
+        "time_seconds": 0.0012569427490234375,
+        "tasks_per_second": 397790.59180576634,
+        "total_primes": 106
+    },
+    "threading_500_4": {
+        "method": "threading",
+        "task_size": 500,
+        "thread_count": 4,
+        "time_seconds": 0.0005962848663330078,
+        "tasks_per_second": 838525.3898440624,
+        "total_primes": 120
+    },
+    "threading_2000_2": {
+        "method": "threading",
+        "task_size": 2000,
+        "thread_count": 2,
+        "time_seconds": 0.002444744110107422,
+        "tasks_per_second": 818081.5291593524,
+        "total_primes": 336
+    },
+    "threading_2000_4": {
+        "method": "threading",
+        "task_size": 2000,
+        "thread_count": 4,
+        "time_seconds": 0.002334117889404297,
+        "tasks_per_second": 856854.7497446374,
+        "total_primes": 380
+    },
+    "multiprocessing_500_2": {
+        "method": "multiprocessing",
+        "task_size": 500,
+        "process_count": 2,
+        "time_seconds": 2.829373359680176,
+        "tasks_per_second": 176.71757539150596,
+        "total_primes": 106
+    },
+    "multiprocessing_500_4": {
+        "method": "multiprocessing",
+        "task_size": 500,
+        "process_count": 4,
+        "time_seconds": 3.0948004722595215,
+        "tasks_per_second": 161.56130402647534,
+        "total_primes": 120
+    },
+    "multiprocessing_2000_2": {
+        "method": "multiprocessing",
+        "task_size": 2000,
+        "process_count": 2,
+        "time_seconds": 2.5642290115356445,
+        "tasks_per_second": 779.9615365876608,
+        "total_primes": 336
+    },
+    "multiprocessing_2000_4": {
+        "method": "multiprocessing",
+        "task_size": 2000,
+        "process_count": 4,
+        "time_seconds": 3.135685443878174,
+        "tasks_per_second": 637.8190784106287,
+        "total_primes": 380
+    }
+}

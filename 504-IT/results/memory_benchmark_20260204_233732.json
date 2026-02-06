@@ -1,0 +1,38 @@
+{
+    "sequential_access_5mb": {
+        "operation": "sequential_access",
+        "size_mb": 5,
+        "time_seconds": 0.2692289352416992,
+        "bandwidth_mb_per_sec": 18.571555080107824
+    },
+    "random_access_5mb": {
+        "operation": "random_access",
+        "size_mb": 5,
+        "time_seconds": 0.044356346130371094,
+        "bandwidth_mb_per_sec": 112.72344176646385
+    },
+    "allocation_5mb": {
+        "operation": "memory_allocation",
+        "size_mb": 5,
+        "time_seconds": 0.0011835098266601562,
+        "allocation_mb_per_sec": 4224.721998388396
+    },
+    "sequential_access_20mb": {
+        "operation": "sequential_access",
+        "size_mb": 20,
+        "time_seconds": 0.5340979099273682,
+        "bandwidth_mb_per_sec": 37.44631766621179
+    },
+    "random_access_20mb": {
+        "operation": "random_access",
+        "size_mb": 20,
+        "time_seconds": 0.028186559677124023,
+        "bandwidth_mb_per_sec": 709.5580386219264
+    },
+    "allocation_20mb": {
+        "operation": "memory_allocation",
+        "size_mb": 20,
+        "time_seconds": 0.004861593246459961,
+        "allocation_mb_per_sec": 4113.877691138247
+    }
+}

@@ -2,26 +2,26 @@
     "integer_ops": {
         "operation": "integer_arithmetic",
         "iterations": 500000,
-        "time_seconds": 0.16458368301391602,
-        "operations_per_second": 3037968.2289508833
+        "time_seconds": 0.1837141513824463,
+        "operations_per_second": 2721619.408398903
     },
     "floating_point_ops_small": {
         "operation": "matrix_multiplication",
         "matrix_size": 50,
-        "time_seconds": 0.0001,
-        "flops": 2500000000.0
+        "time_seconds": 0.0033597946166992188,
+        "flops": 74409310.24694863
     },
     "floating_point_ops_medium": {
         "operation": "matrix_multiplication",
         "matrix_size": 150,
-        "time_seconds": 0.0005083084106445312,
-        "flops": 13279339587.242025
+        "time_seconds": 0.0006585121154785156,
+        "flops": 10250380883.417812
     },
     "prime_calculation": {
         "operation": "prime_calculation",
         "limit": 5000,
         "primes_found": 669,
-        "time_seconds": 0.005932331085205078,
-        "numbers_per_second": 842839.0000803794
+        "time_seconds": 0.003391265869140625,
+        "numbers_per_second": 1474375.7030371204
     }
 }
