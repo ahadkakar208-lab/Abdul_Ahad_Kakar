@@ -1,5 +1,3 @@
-Got it 👍 I’ll clean it up and keep it short, simple, and professional. Here’s a **short README** you can drop straight into your portfolio:
-
 ---
 
 ## Abdul Ahad Kakar
@@ -23,3 +21,4 @@ I’m passionate about learning, building, and improving my work. I enjoy workin
 Feel free to explore my work and reach out if you’d like to collaborate or learn more.
 
 ---
+
