@@ -1,0 +1,36 @@
+
+Hardware Performance Benchmark Report
+=====================================
+
+Generated: 2026-02-04 23:37:49
+
+System Information:
+- OS: Windows
+- CPU: Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+- CPU Cores: 4
+- Total Memory: 7.91 GB
+
+CPU Benchmark Results:
+Integer Operations: 1667192.94 ops/sec
+Matrix Multiplication (Small): 70806671.62 FLOPS
+Matrix Multiplication (Medium): 4915200000.00 FLOPS
+Prime Calculation: 669 primes in 0.01 seconds
+
+Memory Benchmark Results:
+Sequential Access (5MB): 18.57 MB/sec
+Random Access (5MB): 112.72 MB/sec
+Memory Allocation (5MB): 4224.72 MB/sec
+Sequential Access (20MB): 37.45 MB/sec
+Random Access (20MB): 709.56 MB/sec
+Memory Allocation (20MB): 4113.88 MB/sec
+
+
+Parallel Processing Results:
+Sequential (500 tasks): 0.00 seconds
+Sequential (2000 tasks): 0.00 seconds
+Best Threading (4 threads, 500 tasks): 0.00 seconds
+Best Multiprocessing (2 processes, 2000 tasks): 2.56 seconds
+
+
+Summary:
+System with 4 CPU cores and 7.91GB of memory shows a parallel processing speedup of N/A with optimal configuration.
